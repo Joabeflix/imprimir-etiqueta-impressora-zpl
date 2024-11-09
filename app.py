@@ -93,9 +93,12 @@ def impressoras_no_sistema():
             impressoras_lista.append(nome)
             print(f'{idc} - {nome}')
             idc+=1
+
     if impressoras_lista:
         return impressoras_lista
-    impressoras_lista = ['Você não tem nenhuma impressora com']
+    
+    impressoras_lista = ['Você não tem nenhuma impressora compatível']
+    return impressoras_lista
 
 # Função para retornar o nome da impressora escolhida pelo usuário
 def nome_impressora_():
