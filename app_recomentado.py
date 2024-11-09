@@ -191,3 +191,4 @@ if __name__ == "__main__":
     root.title('PrintEasy ZPL')
     root.geometry('255x250')
     root.mainloop()
+
