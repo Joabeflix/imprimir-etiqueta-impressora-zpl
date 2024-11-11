@@ -7,6 +7,7 @@ import time
 import ttkbootstrap as ttk
 import pandas as pd
 
+
 # Separador visual para uso no console
 linha = '__________________________________________________________________'
 
@@ -296,3 +297,4 @@ if __name__ == "__main__":
     root.title('PrintEasy ZPL')
     root.geometry('256x300')
     root.mainloop()
+print('com')
