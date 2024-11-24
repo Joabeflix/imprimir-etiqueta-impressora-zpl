@@ -277,18 +277,22 @@ class app():
         
 
     def retorno_lista_planilha(self):
-        caminho_planilha = self.caminho_exel.get()
-        planilha = pd.read_excel(caminho_planilha)
+        try:
+            caminho_planilha = self.caminho_exel.get()
+            planilha = pd.read_excel(caminho_planilha)
 
-        texto = planilha['texto']
-        quantidade = planilha['quantidade']
+            texto = planilha['texto']
+            quantidade = planilha['quantidade']
 
-        lista_texto = []; lista_quantidade = []
+            lista_texto = []; lista_quantidade = []
 
-        for tx, qt in zip(texto, quantidade):
-            lista_texto.append(tx); lista_quantidade.append(qt)
+            for tx, qt in zip(texto, quantidade):
+                lista_texto.append(tx); lista_quantidade.append(qt)
 
-        return lista_texto, lista_quantidade
+            return lista_texto, lista_quantidade
+        except FileNotFoundError:
+            messagebox.showerror("Você deve selecionar uma planilha!")
+            
 
 # Inicializa a interface gráfica e executa o loop principal do Tkinter
 if __name__ == "__main__":

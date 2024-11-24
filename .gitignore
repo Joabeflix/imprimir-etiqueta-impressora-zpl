@@ -1,0 +1,13 @@
+# Arquivos de configuração com dados sensíveis
+.env
+# Ambiente virtual Python
+venv/
+# Diretórios de build
+dist/
+build/
+# Arquivos de configuração de IDEs ou editores
+.vscode/
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+
