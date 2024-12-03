@@ -291,7 +291,7 @@ class app():
 
             return lista_texto, lista_quantidade
         except FileNotFoundError:
-            messagebox.showerror("Você deve selecionar uma planilha!")
+            messagebox.showerror("Erro na planilha", "Você deve selecionar uma planilha!")
             
 
 # Inicializa a interface gráfica e executa o loop principal do Tkinter
