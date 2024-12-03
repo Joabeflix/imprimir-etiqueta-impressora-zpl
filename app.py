@@ -9,7 +9,7 @@ import pandas as pd
 
 
 # Separador visual para uso no console
-linha = '__________________________________________________________________'
+linha = '__' * 15
 
 # Classe principal da aplicação
 class app():
