@@ -1,0 +1,20 @@
+{
+    "tab_name": "Gerador de etiqueta",
+    "printers_to_ignore": [
+        "OneNote (Desktop)", 
+        "Microsoft Print to PDF", 
+        "Microsoft XPS Document Writer", 
+        "HPBF32B6 (HP LaserJet Pro M428f-M429f)",
+        "HP LaserJet Pro M428f-M429f PCL-6 (V4)",
+        "Fax - HP LaserJet Pro M428f-M429f",
+        "Brother DCP-L2540DW series Printer (Copiar 1)",
+        "Brother DCP-L2540DW series Printer",
+        "HP Deskjet 2510 series",
+        "OneNote for Windows 10",
+        "Enviar para o OneNote 16",
+        "Brother DCP-L2540DW series",
+        "AnyDesk Printer"
+        ],
+    "": ""
+
+}
